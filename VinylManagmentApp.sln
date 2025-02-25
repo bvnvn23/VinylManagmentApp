@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylManagmentApp", "VinylManagmentApp\VinylManagmentApp.csproj", "{8D02D40D-736D-4581-9749-CD97F381E456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D02D40D-736D-4581-9749-CD97F381E456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D02D40D-736D-4581-9749-CD97F381E456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D02D40D-736D-4581-9749-CD97F381E456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D02D40D-736D-4581-9749-CD97F381E456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D990A142-4DA3-449F-8939-FB6F928DB8E7}
+	EndGlobalSection
+EndGlobal
