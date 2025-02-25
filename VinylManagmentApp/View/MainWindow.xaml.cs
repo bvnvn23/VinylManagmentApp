@@ -5,14 +5,10 @@ namespace VinylManagmentApp;
 
 public partial class MainWindow : Window
 {
-    public MainWindow()
-    {
-        InitializeComponent();
-    }
-
     private void Button_Add(object sender, RoutedEventArgs e)
     {
-        
+        var recordWindow = new RecordWindow();
+        recordWindow.Show();
     }
 
     private void Button_Edit(object sender, RoutedEventArgs e)
@@ -22,6 +18,7 @@ public partial class MainWindow : Window
 
     private void Button_Delete(object sender, RoutedEventArgs e)
     {
+        
     }
 
 }

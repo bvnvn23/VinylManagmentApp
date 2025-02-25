@@ -4,11 +4,11 @@ namespace VinylManagmentApp.Model
 {
     class VinylRecord
     {
-        string Title { get; set; }
-        string Artist { get; set; }
-        int Year { get; set; }
+        public string Title { get; set; }
+        public string Artist { get; set; }
+        public string Year { get; set; }
 
-        public VinylRecord(string title, string artist, int year)
+        public VinylRecord(string title, string artist, string year)
         {
             Title = title;
             Artist = artist;

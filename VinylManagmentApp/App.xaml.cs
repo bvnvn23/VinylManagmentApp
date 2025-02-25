@@ -1,11 +1,12 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
-namespace VinylManagmentApp;
-
-
-public partial class App : Application
+namespace VinylManagmentApp
 {
+    public partial class App : Application
+    {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            
+        }
+    }
 }
-
